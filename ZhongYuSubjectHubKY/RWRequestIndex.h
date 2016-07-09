@@ -9,10 +9,10 @@
 #ifndef RWRequestIndex_h
 #define RWRequestIndex_h
 
-#define UMengCommunityAppkey @"57316e47e0f55aebe5002931"
-#define UMengCommunityAppSecret @"11144647f2ac0fa64bbb5a1dcdc8e1c5"
+#define UMengCommunityAppkey @"5780521867e58e49280043b0"
+#define UMengCommunityAppSecret @"f1b6300f5e970785faef0055a18e3a0e"
 
-#define MOB_CLICK @"57316e47e0f55aebe5002931"
+#define MOB_CLICK @"5780521867e58e49280043b0"
 
 #define NAV_TITLE @"消防资讯"
 

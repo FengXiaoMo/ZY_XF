@@ -10,7 +10,7 @@
 #import "JPUSHService.h"
 #import "RWTabBarViewController.h"
 
-#define JPUSH_KEY @"91c02725a91ea5f7e36cdb74"
+#define JPUSH_KEY @"0525e547b4dfdfa512e7f634"
 
 @interface AppDelegate (JPush)
 
