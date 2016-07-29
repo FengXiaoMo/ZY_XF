@@ -23,14 +23,8 @@
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
         
         [deployManager setDeployValue:CLOCK_OFF forKey:CLOCK];
-        
         [deployManager setDeployValue:@[@"提醒1"] forKey:CLOCK_NAMES];
-        
         [deployManager setDeployValue:@[DEFAULT_CLOCK] forKey:CLOCK_TIMES];
-        
-        [deployManager addLocalNotificationWithClockString:DEFAULT_CLOCK
-                                                   AndName:@"提醒1"];
-        
         [deployManager setDeployValue:@(100) forKey:EXPERIENCE_TIMES];
         [deployManager setDeployValue:@(100) forKey:TIMES_BUFFER];
         

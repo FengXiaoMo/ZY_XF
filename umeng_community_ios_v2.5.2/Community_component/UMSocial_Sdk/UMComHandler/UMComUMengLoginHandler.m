@@ -11,7 +11,6 @@
 #import "UMSocialSinaSSOHandler.h"
 #import "UMComNavigationController.h"
 #import "RWRegisterViewController.h"
-
 @interface UMComUMengLoginHandler()<UMSocialUIDelegate>
 
 

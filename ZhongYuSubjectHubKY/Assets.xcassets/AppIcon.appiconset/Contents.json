@@ -45,7 +45,7 @@
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "iPad_Settings_iOS5-9_29pt@2x-1.png",
+      "filename" : "iPad_Settings_iOS5-9_29pt@2x.png",
       "scale" : "2x"
     },
     {
@@ -95,7 +95,6 @@
     {
       "size" : "29x29",
       "idiom" : "watch",
-      "filename" : "iPad_Settings_iOS5-9_29pt@2x.png",
       "role" : "companionSettings",
       "scale" : "2x"
     },

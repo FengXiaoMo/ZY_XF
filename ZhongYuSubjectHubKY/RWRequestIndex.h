@@ -16,25 +16,25 @@
 
 #define NAV_TITLE @"消防资讯"
 
-#define MAIN_INDEX [NSURL URLWithString:@"http://www.zhongyuedu.com/tgm/test/test14/index.html"]
+#define MAIN_INDEX [NSURL URLWithString:@"http://jz.zhongyuedu.com/list.php?fid=55"]
 //>> 资讯
-#define SERVERS_INDEX @"http://www.zhongyuedu.com/api/tk_jz_examtype.php"
+#define SERVERS_INDEX @"http://api.zhongyuedu.com/tik/xf/examtype.php"
 //>> 题库目录
-#define YY_INDEX @"http://api.zhongyuedu.com/tik/yj/yy_yj_new_list.php"
+#define YY_INDEX @"http://api.zhongyuedu.com/tik/xf/yy_list.php"
 //>> 预约列表
 #define RECOMMEND @"http://www.zhongyuedu.com/api/tuijian.php"
 //>> 推荐列表
-#define UPDATE_USERNAME @"http://www.zhongyuedu.com/api/yy_jz_post.php"
+#define UPDATE_USERNAME @"http://api.zhongyuedu.com/tik/xf/yy_post.php"
 //>> 上传
-#define EXPERIENCE_TIMES_URL @"http://api.zhongyuedu.com/tik/yj/ky_limit.php"
+#define EXPERIENCE_TIMES_URL @"http://api.zhongyuedu.com/tik/xf/limit.php"
 //>> 天王盖地虎
 #define RECEIVE_PUSH @"http://www.zhongyuedu.com/api/url.php"
 //>> push
-#define LOGIN_URL @"http://api.zhongyuedu.com/tik/yj/login.php"
+#define LOGIN_URL @"http://api.zhongyuedu.com/tik/xf/login.php"
 //>> 登录
-#define REGISTER_URL @"http://api.zhongyuedu.com/tik/yj/tk_yj_register.php"
+#define REGISTER_URL @"http://api.zhongyuedu.com/tik/xf/register.php"
 //>> 注册
-#define REPLACE_PASSWORD_URL @"http://api.zhongyuedu.com/tik/yj/yao_change_pwd.php"
+#define REPLACE_PASSWORD_URL @"http://api.zhongyuedu.com/tik/xf/change_pwd.php"
 //>> 重置密码
 #define ABOUT_US @"http://www.zhongyuedu.com/api/tk_aboutUs.html"
 //>> 关于我们

@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yjWelcome.png" translatesAutoresizingMaskIntoConstraints="NO" id="anZ-Qo-bHA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="XF_Welcome" translatesAutoresizingMaskIntoConstraints="NO" id="anZ-Qo-bHA">
                                 <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
                             </imageView>
                         </subviews>
@@ -37,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="yjWelcome.png" width="1242" height="2208"/>
+        <image name="XF_Welcome" width="1242" height="2208"/>
     </resources>
 </document>

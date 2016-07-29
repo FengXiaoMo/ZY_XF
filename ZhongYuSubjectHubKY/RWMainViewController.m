@@ -99,6 +99,14 @@
     {
         [self addWebToolBar];
     }
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        if (_informationView.isLoading)
+        {
+            [SVProgressHUD dismiss];
+        }
+    });
 }
 
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation

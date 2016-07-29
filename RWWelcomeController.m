@@ -39,11 +39,11 @@ static NSString *const welcomeCell = @"welcomeCell";
 
 - (void)initDataSource
 {
-    imageSource = @[[UIImage imageNamed:@"welcome1"],
-                    [UIImage imageNamed:@"welcome2"],
-                    [UIImage imageNamed:@"welcome3"],
-                    [UIImage imageNamed:@"welcome4"],
-                    ];
+    imageSource = @[[UIImage imageNamed:@"welcome1x"],
+                    [UIImage imageNamed:@"welcome2x"],
+                    [UIImage imageNamed:@"welcome3x"],
+                    [UIImage imageNamed:@"welcome4x"],
+                    [UIImage imageNamed:@"welcome5x"]];
 }
 
 - (void)initLoginButton
@@ -55,13 +55,9 @@ static NSString *const welcomeCell = @"welcomeCell";
     [toLogin setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     
     toLogin.layer.borderColor = [[UIColor whiteColor] CGColor];
-    
     toLogin.layer.borderWidth = 1;
-    
     toLogin.layer.cornerRadius = 5;
-    
     toLogin.backgroundColor = [UIColor clearColor];
-    
     toLogin.titleLabel.font = [UIFont systemFontOfSize:17];
     
     [toLogin addTarget:self
