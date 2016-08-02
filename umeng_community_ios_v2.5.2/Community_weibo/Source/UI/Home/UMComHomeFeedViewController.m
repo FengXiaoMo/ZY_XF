@@ -332,7 +332,7 @@
     self.itemNoticeView = [self creatNoticeViewWithOriginX:rightButton.frame.size.width-10];
     [self.findButton addSubview:self.itemNoticeView];
 
-    NSArray *titles = @[@"医师圈", @"推荐", @"关注", @"话题"];
+    NSArray *titles = @[@"消防圈", @"推荐", @"关注", @"话题"];
     _menuView = [[KTDropdownMenuView alloc] initWithFrame:CGRectMake(0, 0,100, 44) titles:titles];
     _menuView.cellColor = MAIN_COLOR;
     __weak __typeof__(self) weakSelf = self;
