@@ -433,6 +433,7 @@
 		12F4461E1D129A1C00511336 /* Lv9.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F446141D129A1C00511336 /* Lv9.png */; };
 		12F446221D12AE4A00511336 /* edit_t.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F446211D12AE4A00511336 /* edit_t.png */; };
 		12F5671E1D07D6E30059E20F /* RWSubjectCatalogueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5671D1D07D6E30059E20F /* RWSubjectCatalogueController.m */; };
+		12F691B61D50942D00541690 /* RWRequsetManager+ExamineVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F691B41D50942D00541690 /* RWRequsetManager+ExamineVersion.m */; };
 		12F6EB301CD9FA1900CBA632 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F6EB2F1CD9FA1900CBA632 /* WebKit.framework */; };
 		12F6EB331CD9FA3E00CBA632 /* RWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F6EB321CD9FA3E00CBA632 /* RWWebViewController.m */; };
 		12F776641CF2B06100F3561A /* RWMainViewController+Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F776631CF2B06100F3561A /* RWMainViewController+Drawer.m */; };
@@ -1219,6 +1220,8 @@
 		12F5671C1D07D6E30059E20F /* RWSubjectCatalogueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSubjectCatalogueController.h; sourceTree = "<group>"; };
 		12F5671D1D07D6E30059E20F /* RWSubjectCatalogueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSubjectCatalogueController.m; sourceTree = "<group>"; };
 		12F5E2911D19160B004A303A /* RWRequestIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWRequestIndex.h; sourceTree = "<group>"; };
+		12F691B41D50942D00541690 /* RWRequsetManager+ExamineVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RWRequsetManager+ExamineVersion.m"; sourceTree = "<group>"; };
+		12F691B51D50942D00541690 /* RWRequsetManager+ExamineVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RWRequsetManager+ExamineVersion.h"; sourceTree = "<group>"; };
 		12F6EB2F1CD9FA1900CBA632 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		12F6EB311CD9FA3E00CBA632 /* RWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWWebViewController.h; sourceTree = "<group>"; };
 		12F6EB321CD9FA3E00CBA632 /* RWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWWebViewController.m; sourceTree = "<group>"; };
@@ -2384,8 +2387,8 @@
 		125D99981CD0B4B800871ED4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1234BA151D4B28510066AF75 /* RWMainViewController.m */,
 				1234BA161D4B28510066AF75 /* RWMainViewController.h */,
+				1234BA151D4B28510066AF75 /* RWMainViewController.m */,
 				12F776621CF2B06100F3561A /* RWMainViewController+Drawer.h */,
 				12F776631CF2B06100F3561A /* RWMainViewController+Drawer.m */,
 				12D1C9581CF6E7D50082F638 /* RWMainViewController+CountDownView.h */,
@@ -2965,6 +2968,8 @@
 				12FFF1521CCF4056003F58E2 /* RWRequsetManager.m */,
 				12EE61B71CE1737E00ADCC51 /* RWRequsetManager+UserLogin.h */,
 				12EE61B81CE1737E00ADCC51 /* RWRequsetManager+UserLogin.m */,
+				12F691B41D50942D00541690 /* RWRequsetManager+ExamineVersion.m */,
+				12F691B51D50942D00541690 /* RWRequsetManager+ExamineVersion.h */,
 				12EE61C11CE1860500ADCC51 /* RWDeployIndex.h */,
 				12EE61BA1CE1762A00ADCC51 /* RWDeployManager.h */,
 				12EE61BB1CE1762A00ADCC51 /* RWDeployManager.m */,
@@ -3745,6 +3750,7 @@
 				12F814F21CE405DB00D6DEE9 /* RWClockAttributeCell.m in Sources */,
 				1234B9501D4B283C0066AF75 /* UMComUMengLoginHandler.m in Sources */,
 				BAF4EF821CD207E500C3931B /* RWSubjectHub+CoreDataProperties.m in Sources */,
+				12F691B61D50942D00541690 /* RWRequsetManager+ExamineVersion.m in Sources */,
 				1234B97F1D4B283C0066AF75 /* UMComHorizonMenuView.m in Sources */,
 				BAF4EFA11CD213B100C3931B /* RWSubjectClass.m in Sources */,
 				1234BA0D1D4B28410066AF75 /* SDWebImagePrefetcher.m in Sources */,

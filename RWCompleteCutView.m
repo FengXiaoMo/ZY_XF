@@ -150,7 +150,7 @@ CGAffineTransform  GetCGAffineTransformRotateAroundPoint(CGFloat centerX, CGFloa
 {
     _contentImage = contentImage;
     
-    [_imageView sd_setImageWithURL:[NSURL URLWithString:_contentImage]];
+    [_imageView sd_setImageWithURL:[NSURL URLWithString:_contentImage] placeholderImage:[UIImage imageNamed:@"ZYF"]];
 }
 
 - (void)setButtonText:(NSString *)buttonText

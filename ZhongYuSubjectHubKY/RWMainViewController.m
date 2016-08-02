@@ -14,6 +14,7 @@
 #import "RWMainViewController+Drawer.h"
 #import "RWMainViewController+CountDownView.h"
 #import "RWCustomizeToolBar.h"
+#import "RWRequsetManager+ExamineVersion.h"
 
 @interface RWMainViewController ()
 
@@ -187,6 +188,7 @@
     
     MAIN_NAV
     
+    [RWRequsetManager examineVersionWithController:self];
     [RWRequsetManager obtainExperienceTimes];
     
     [self initManagersAndDatas];
@@ -231,7 +233,9 @@
     
     [SVProgressHUD dismiss];
     
-    [RWRequsetManager warningToViewController:self Title:@"服务器连接失败" Click:nil];
+    [RWRequsetManager warningToViewController:self
+                                        Title:@"服务器连接失败"
+                                        Click:nil];
 }
 
 #pragma mark +CountDown
